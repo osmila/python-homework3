@@ -1,7 +1,22 @@
 import math
+import random
 
 
 def print_asterisks():
+    width = random.randrange(1, 20, 2)
+    height = width * 2 - 1
+    k = 1
+    for i in range(height):
+        for j in range(k):
+            print('* ', end='')
+        print('')
+        if k < width and i < width:
+            k += 1
+        else:
+            k -= 1
+
+
+def print_asterisks_bad():
     height = 9
     k = 0
     for i in range(height):
