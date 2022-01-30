@@ -8,7 +8,7 @@ import task3_print_asterisks
 # input - Hello Worlds
 # output - sdlroW olle
 
-# task2_reverse_word.reverse_word()
+task2_reverse_word.reverse_word()
 
 # Task 3:
 # Напишите программу Python для построения следующего шаблона,
