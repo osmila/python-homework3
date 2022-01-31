@@ -2,8 +2,8 @@ import random
 import string
 
 
-def generate_list_random(numbers_exist, string_exist, string_max_length=5):
-    length = random.randrange(10, 20)
+def generate_list_random(numbers_exist=True, string_exist=False, string_max_length=5):
+    length = random.randrange(1, 20)
     my_list = list()
     if numbers_exist == True and string_exist == False:
         for _ in range(length):
