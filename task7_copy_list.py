@@ -2,7 +2,7 @@ from generate_random_list import generate_list_random
 
 
 def copy_list():
-    initial_list = generate_list_random(numbers_exist=True, string_exist=False)
+    initial_list = generate_list_random()
     print(f'Initial list:\t{initial_list}')
     result_list = list()
 

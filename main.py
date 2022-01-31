@@ -1,6 +1,7 @@
 import task2_reverse_word
 import task3_print_asterisks
 import task7_copy_list
+import task8_find_lists_difference
 import tasks4_5_numbers_sequence
 import task6_delete_duplicates_list
 
@@ -10,8 +11,8 @@ import task6_delete_duplicates_list
 # Пример:
 # input - Hello Worlds
 # output - sdlroW olle
-
-# task2_reverse_word.reverse_word()
+print('Task 2: reverse word')
+task2_reverse_word.reverse_word()
 
 # Task 3:
 # Напишите программу Python для построения следующего шаблона,
@@ -25,28 +26,35 @@ import task6_delete_duplicates_list
 # * * *
 # * *
 # *
-
-# task3_print_asterisks.print_asterisks()
+print('\nTask 3: asterisks')
+task3_print_asterisks.print_asterisks()
 
 # Task 4:
 # Даны два целых числа A и В. Выведите все числа от A до B включительно,
 # в порядке возрастания, если A < B, или в порядке убывания если A > B
-
+print('\nTask 4: int numbers from a to b')
 max_number = 20
-# tasks4_5_numbers_sequence.print_sequence_random(max_number)
+tasks4_5_numbers_sequence.print_sequence_random(max_number)
 
 # Task 5:
 # Даны два целых числа A и B (при этом A < B).
 # Выведите все числа от A до B включительно.
-
-# tasks4_5_numbers_sequence.print_sequence_a_less_b(max_number)
+print('\nTask 5: int numbers from a to b, where a < b')
+tasks4_5_numbers_sequence.print_sequence_a_less_b(max_number)
 
 # Task 6:
 # Напишите программу, которая удаляет дубликаты элементов из списка.
-
-# task6_delete_duplicates_list.delete_duplicates()
+print('\nTask 6: delete duplicates from the list')
+task6_delete_duplicates_list.delete_duplicates()
 
 # Task 7:
 # Напишите программу, которая копирует список
-
+print('\nTask 7: copy list')
 task7_copy_list.copy_list()
+
+# Task 8:
+# Напишите программу, которая находит разницу между
+# двумя списками и сохраняет ее в новый список. Вывести
+# результат на экран.
+print('\nTask 8: find difference between list_1 and list_2')
+task8_find_lists_difference.find_difference()
