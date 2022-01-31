@@ -1,7 +1,7 @@
 from generate_random_list import generate_list_random
 
 
-def find_difference():
+def find_difference_0():
     list_1 = generate_list_random()
     list_2 = generate_list_random()
     print(f'List 1:\t{list_1}')
@@ -13,4 +13,18 @@ def find_difference():
             if x == y:
                 result_list.remove(x)
                 break
+    print(f'Result list:\t{result_list}')
+
+
+def find_difference():
+    list_1 = generate_list_random()
+    list_2 = generate_list_random()
+    print(f'List 1:\t{list_1}')
+    print(f'List 2:\t{list_2}')
+    result_list = list_1.copy()
+
+    for x in list_1:
+        if x in list_2:
+            result_list.remove(x)
+
     print(f'Result list:\t{result_list}')
