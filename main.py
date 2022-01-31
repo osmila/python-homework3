@@ -1,5 +1,6 @@
 import task2_reverse_word
 import task3_print_asterisks
+import task7_copy_list
 import tasks4_5_numbers_sequence
 import task6_delete_duplicates_list
 
@@ -43,4 +44,9 @@ max_number = 20
 # Task 6:
 # Напишите программу, которая удаляет дубликаты элементов из списка.
 
-task6_delete_duplicates_list.delete_duplicates()
+# task6_delete_duplicates_list.delete_duplicates()
+
+# Task 7:
+# Напишите программу, которая копирует список
+
+task7_copy_list.copy_list()
