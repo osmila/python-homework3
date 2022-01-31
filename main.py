@@ -2,6 +2,7 @@ import task2_reverse_word
 import task3_print_asterisks
 import task7_copy_list
 import task8_find_lists_difference
+import task9_append_dictionaries
 import tasks4_5_numbers_sequence
 import task6_delete_duplicates_list
 
@@ -51,13 +52,13 @@ import task6_delete_duplicates_list
 # # Напишите программу, которая копирует список
 # print('\nTask 7: copy list')
 # task7_copy_list.copy_list()
-
-# Task 8:
-# Напишите программу, которая находит разницу между
-# двумя списками и сохраняет ее в новый список. Вывести
-# результат на экран.
-print('\nTask 8: find difference between list_1 and list_2')
-task8_find_lists_difference.find_difference()
+#
+# # Task 8:
+# # Напишите программу, которая находит разницу между
+# # двумя списками и сохраняет ее в новый список. Вывести
+# # результат на экран.
+# print('\nTask 8: find difference between list_1 and list_2')
+# task8_find_lists_difference.find_difference()
 
 # Task 9:
 # Напишите программу для объединения следующих словарей для создания нового
@@ -67,3 +68,4 @@ task8_find_lists_difference.find_difference()
 # dic3={5:50,6:60}
 # Результат : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 print('\nTask 9: append 3 dictionaries')
+task9_append_dictionaries.append_dictionaries()
