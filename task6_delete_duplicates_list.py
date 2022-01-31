@@ -9,19 +9,26 @@ def generate_list_random():
     return my_list
 
 
-def delete_duplicates():
+def delete_duplicates_0():
     initial_list = generate_list_random()
-    changed_list = list()
-    changed_list.append(initial_list[0])
-    print(f'Initial list: {initial_list}')
-    # for i in range(len(initial_list)):
-    #     for j in range(len(changed_list)):
-    #         if
-    #     for
-    #     changed_list.append(initial_list[i])
-    #     for j in range(i+1, len(initial_list)):
-    #         if i == j:
-    #             break
-    #         elif initial_list[j] == initial_list[i]:
-    #             list_to_delete.pop(j)
-    # print(f'List after deleting duplicated items: {list_to_delete}')
+    changed_list = initial_list.copy()
+    print(f'Initial list:\t{initial_list}')
+    length = len(changed_list)
+
+    for i in range(length):
+        for j in range(i+1, length):
+            if changed_list[j] == changed_list[i]:
+                changed_list[j] = 0
+
+    result_list = list()
+    for x in changed_list:
+        if x != 0:
+            result_list.append(x)
+    print(f'Result list:\t{result_list}')
+
+
+def delete_duplicates():
+    list_to_delete = generate_list_random()
+    print(f'Initial list:\t{list_to_delete}')
+    list_to_delete = list(dict.fromkeys(list_to_delete))
+    print(f'Result list:\t{list_to_delete}')
