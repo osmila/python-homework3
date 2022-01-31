@@ -58,3 +58,12 @@ import task6_delete_duplicates_list
 # результат на экран.
 print('\nTask 8: find difference between list_1 and list_2')
 task8_find_lists_difference.find_difference()
+
+# Task 9:
+# Напишите программу для объединения следующих словарей для создания нового
+# Исходные словари :
+# dic1={1:10, 2:20}
+# dic2={3:30, 4:40}
+# dic3={5:50,6:60}
+# Результат : {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+print('\nTask 9: append 3 dictionaries')
